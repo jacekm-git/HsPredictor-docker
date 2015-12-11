@@ -1,4 +1,4 @@
 FROM jacekxp2/hspredictor:latest
 COPY build_script /
 RUN chmod +x /build_script
-CMD ["build_script"]
+CMD ["./build_script"]

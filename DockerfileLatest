@@ -1,0 +1,2 @@
+FROM jacekxp2/hspredictor:base
+CMD ["bash"]
