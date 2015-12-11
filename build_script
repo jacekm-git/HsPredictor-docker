@@ -1,5 +1,5 @@
 #!/bin/sh
 cabal sandbox init
-cabal install --enable-dependencies --enable-tests
+cabal install --only-dependencies --enable-tests
 cabal test
 cabal build
