@@ -1,0 +1,4 @@
+cabal sandbox init
+cabal install --enable-dependencies --enable-tests
+cabal test
+cabal build
