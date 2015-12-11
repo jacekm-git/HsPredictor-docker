@@ -1,0 +1,1 @@
+Docker image with all dependencies needed to build and test HsPredictor.
